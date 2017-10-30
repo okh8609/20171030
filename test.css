@@ -1,0 +1,57 @@
+body{
+	background-image: url("back.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;    
+}
+.alpha{
+  	height: 100vh;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.clear{
+	margin: 0px 0px 0px 0px;
+}
+.box{
+	width: 15vw;
+	height: 35vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	margin-left: 8vw;
+	margin-top: 10vh;
+	border-radius:15px;
+}
+.pic{
+	width: 10vw;  
+	position: absolute;
+	margin-top: 5.5vh;
+	margin-left: 2.5vw;
+}
+.text{
+	font-size: 5vh;
+	width: 15vw;
+	height: 6vh;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	text-align: center;
+	margin-top: 29vh;
+	border-radius:0px 0px 15px 15px;
+}
+/*.box:hover{
+	animation: slidein 0.2s infinite;
+}
+@keyframes slidein {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+	transform: rotate(0deg);
+  }
+  75% {
+	transform: rotate(-5deg);
+  }
+}*/
